@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Save and Display Data</title>
+</head>
+<body>
+	<h1>Evidence pojištění</h1>
+		
+    
+    <table id="dataTabulky">
+		<thead>
+			<tr>
+				<th>Jméno a Přijímení</th>
+				<th>Telefonní číslo</th>
+				<th>Věk</th>
+			</tr>
+		</thead>
+		<tbody id="tabulka"></tbody>
+	</table>
+    
+    
+    
+    <div>
+		<label for="jmeno">Jméno:</label>
+		<input type="text" id="jmeno" name="jmeno" placeholder="Jméno"><br>
+
+		<label for="prijmeni">Přijímení:</label>
+		<input type="text" id="prijmeni" name="prijmeni" placeholder="Přijímení"><br>
+
+		<label for="telefon">Telefonní číslo:</label>
+		<input type="tel" id="telefon" name="telefon" placeholder="+420 123 456 789"><br>
+
+		<label for="vek">Věk:</label>
+		<input type="text" id="vek" name="vek" placeholder="Napiš svůj věk"><br>
+
+		<input type="button" value="Uložit" onclick="ulozData()">
+    </div>
+
+
+
+	<script src="javas.js"></script>
+    <link rel="stylesheet" href="css.css">
+</body>
+</html>
